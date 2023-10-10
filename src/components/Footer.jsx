@@ -18,7 +18,7 @@ const Footer = () => {
           <Link href="/">
             <Image src={logo} alt="" width={200} height={200} />
           </Link>
-          <p className="w-[400px] text-gray-300 my-8 text-lg">
+          <p className="lg:w-[400px] text-gray-300 my-8 lg:text-lg">
             CareAssist aimed to be the guiding light, the bridge between
             patients and doctors, and the source of valuable insights into one
             {"'"}s health journey.{" "}
