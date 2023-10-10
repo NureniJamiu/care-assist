@@ -9,6 +9,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Journey from "@/components/Journey";
 import AppSection from "@/components/AppSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
       <Features />
       <Journey />
       <AppSection />
+      <Footer />
     </>
   );
 }
