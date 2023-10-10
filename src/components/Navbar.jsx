@@ -10,6 +10,8 @@ import logo from "../../public/logo.png";
 import { Menu } from "lucide-react";
 import { links } from "@/mockDB";
 
+import { RiMenu4Fill } from "react-icons/ri";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -41,7 +43,7 @@ const Navbar = () => {
           <div>
             <div className="lg:hidden cursor-pointer" onClick={handleToggle}>
               <span>
-                <Menu />
+                <RiMenu4Fill size={25} />
               </span>
             </div>
 
