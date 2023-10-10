@@ -5,7 +5,7 @@ const Button = ({ title, className }) => {
   return (
     <Link href="#">
       <button
-        className={` bg-blue-600 rounded-3xl px-5 py-3 text-sm font-semibold text-white ${className}`}
+        className={` bg-blue-500 rounded-3xl text-sm font-semibold text-white ${className}`}
       >
         {title}
       </button>

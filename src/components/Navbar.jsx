@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <nav
-      className="relative px-10 md:px-20 lg:px-28 py-5 md:py-3 border-b mx-auto"
+      className="relative px-10 md:px-20 py-5 md:py-3 border-b mx-auto"
       data-aos="fade-down"
       data-aos-duration="1000"
     >
@@ -45,7 +45,10 @@ const Navbar = () => {
               </span>
             </div>
 
-            <Button title="Login as Admin" className="hidden lg:flex" />
+            <Button
+              title="Login as Admin"
+              className="hidden lg:flex px-5 py-3"
+            />
           </div>
         </div>
       </div>
@@ -94,7 +97,7 @@ const Navbar = () => {
               </Link>
             ))}
 
-            <Button title="Login as Admin" />
+            <Button title="Login as Admin" className="px-5 py-3" />
           </div>
         </div>
       )}
