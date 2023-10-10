@@ -16,13 +16,13 @@ const Navbar = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <nav
-      className="fixed top-0 left-0 right-0 px-10 md:px-20 py-5 lg:py-3 bg-white shadow mx-auto z-30"
+      className="fixed top-0 left-0 right-0 px-10 md:px-20 py-5 lg:py-4 bg-white shadow mx-auto z-30"
       // data-aos="fade-down"
       // data-aos-duration="1000"
     >
       <div className="flex items-center justify-between">
         <Link href="/" className="text-xl md:text-2xl cursor-pointer">
-          <Image src={logo} alt="logo" width={150} height={150} />
+          <Image src={logo} alt="logo" width={180} height={180} />
         </Link>
 
         <div className="hidden lg:flex gap-8">

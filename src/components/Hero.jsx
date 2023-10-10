@@ -17,20 +17,14 @@ const Hero = () => {
           >
             A Journey of Care and Connection
           </h1>
-          <p className="py-8 text-zinc-700 md:w-[400px] md:mx-auto lg:mx-0 text-lg">
+          <p className="py-8 text-zinc-700 md:w-[400px] md:mx-auto lg:mx-0 text-xl">
             Help find solutions with intuitive and in accordance with the client
             business goals. We provide high-quality services.
           </p>
-          <Button title="Get Started Today" className="px-10 py-3 text-base" />
+          <Button title="Get Started Today" className="px-10 py-4 text-base" />
         </div>
         <div className="flex-1">
-          <Image
-            src={sectionImage}
-            alt="Hero"
-            width={500}
-            height={500}
-            className=""
-          />
+          <Image src={sectionImage} alt="Hero" width={530} height={530} />
         </div>
       </div>
     </section>
