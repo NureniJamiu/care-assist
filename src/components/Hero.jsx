@@ -9,7 +9,7 @@ const raleway = Raleway({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
-    <section className="px-10 md:px-20 py-5 md:py-3">
+    <section className="px-10 md:px-20 py-5 md:py-3 my-24 lg:my-16">
       <div className="flex flex-col lg:flex-row items-center gap-8 text-center lg:text-left">
         <div className="flex-1">
           <h1

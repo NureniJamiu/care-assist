@@ -16,9 +16,9 @@ const Navbar = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <nav
-      className="relative px-10 md:px-20 py-5 lg:py-3 bg-white shadow mx-auto "
-      data-aos="fade-down"
-      data-aos-duration="1000"
+      className="fixed top-0 left-0 right-0 px-10 md:px-20 py-5 lg:py-3 bg-white shadow mx-auto "
+      // data-aos="fade-down"
+      // data-aos-duration="1000"
     >
       <div className="flex items-center justify-between">
         <Link href="/" className="text-xl md:text-2xl cursor-pointer">
