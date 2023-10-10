@@ -45,7 +45,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <p className="text-center mx-auto lg:w-[600px] border-t border-neutral-400 pt-3 mt-5 lg:mt-0">
+      <p className="text-center mx-auto lg:w-[600px] border-t border-neutral-400 pt-3 mt-5 lg:mt-0 text-sm md:text-base">
         © CareAssist 2023 - All Rights Reserved
       </p>
     </footer>
