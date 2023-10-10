@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <nav
       className="fixed top-0 left-0 right-0 px-10 md:px-20 py-5 lg:py-4 bg-white shadow mx-auto z-30"
-      // data-aos="fade-down"
-      // data-aos-duration="1000"
+      data-aos="fade-down"
+      data-aos-duration="1000"
     >
       <div className="flex items-center justify-between">
         <Link href="/" className="text-xl md:text-2xl cursor-pointer">

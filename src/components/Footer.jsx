@@ -12,7 +12,11 @@ const iconStyle = `bg-[#1778FB] p-4 rounded-full hover:text-blue-500 hover:bg-wh
 
 const Footer = () => {
   return (
-    <footer className="absolute -bottom-96 lg:-bottom-48 left-0 right-0 bg-[#0037CC] px-10 md:px-20 pt-10 pb-5 text-white">
+    <footer
+      className="absolute -bottom-96 lg:-bottom-48 left-0 right-0 bg-[#0037CC] px-10 md:px-20 pt-10 pb-5 text-white"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="flex items-center w-full gap-10 ">
         <div className="flex-1">
           <Link href="/">
