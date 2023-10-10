@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <nav
-      className="relative px-10 md:px-20 py-5 md:py-3 border-b mx-auto"
+      className="relative px-10 md:px-20 py-5 lg:py-3 bg-white shadow mx-auto "
       data-aos="fade-down"
       data-aos-duration="1000"
     >
