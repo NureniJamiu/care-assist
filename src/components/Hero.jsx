@@ -10,14 +10,14 @@ const raleway = Raleway({ subsets: ["latin"] });
 const Hero = () => {
   return (
     <section className="px-10 md:px-20 py-5 md:py-3">
-      <div className="flex items-center gap-8">
+      <div className="flex flex-col lg:flex-row items-center gap-8 text-center lg:text-left">
         <div className="flex-1">
           <h1
-            className={`${raleway.className} text-[#1E1F4B] text-6xl font-bold`}
+            className={`${raleway.className} text-[#1E1F4B] text-5xl lg:text-6xl font-bold md:max-w-[600px] md:mx-auto lg:w-full`}
           >
             A Journey of Care and Connection
           </h1>
-          <p className="py-8 text-zinc-700 w-[400px] text-lg">
+          <p className="py-8 text-zinc-700 md:w-[400px] md:mx-auto lg:mx-0 text-lg">
             Help find solutions with intuitive and in accordance with the client
             business goals. We provide high-quality services.
           </p>
