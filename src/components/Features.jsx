@@ -30,7 +30,10 @@ const features = [
 const Features = () => {
   return (
     <section className="px-10 md:px-20 py-5 md:py-3">
-      <div className="text-center">
+      <div className="text-center"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      >
         <h2
           className={`${raleway.className} text-[#1E1F4B] text-4xl font-bold`}
         >
